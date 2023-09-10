@@ -1,0 +1,26 @@
+.chat-bubble {
+    border-radius: 50%;
+    width: 65px;
+    height: 60px;
+    background-color: #2e343a;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+    overflow: hidden;
+  }
+  
+  .chat-bubble.expanded {
+    border-radius: 5px;
+    width: 100%;
+    max-width: 1000px;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-bubble.collapsed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

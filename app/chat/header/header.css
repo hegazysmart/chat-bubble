@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  background-color: #fff2;
+}
+
+button.close {
+  border: none;
+  background-color: #0000;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+button.close:hover{
+    color: rgb(240, 120, 120);
+}

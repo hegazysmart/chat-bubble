@@ -1,0 +1,31 @@
+.settings-form {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(240, 248, 255, 0.692);
+  justify-content: space-between;
+}
+
+.settings-form label,
+.settings-form input,
+button.save-settings,
+.settings-form select {
+  color: black;
+  height: 35px;
+  margin:0.5rem;
+}
+
+.settings-form input {
+  padding: 0 0.5rem;
+  margin-left: 0.4rem;
+}
+
+.settings-form label {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+button.save-settings {
+  margin-right: 1rem;
+  padding: 0 0.5rem;
+}
